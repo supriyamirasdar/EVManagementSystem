@@ -1,0 +1,370 @@
+[
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_notif.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\notif.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_station_tracker_map.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\station_tracker_map.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_totalmr.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\totalmr.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_station_tracker.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\station_tracker.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_survey.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\survey.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_calendar_days.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\calendar_days.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_q.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\q.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_infowindow_layout.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\infowindow_layout.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pickup.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-xxhdpi\\ic_pickup.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_scrollbar_vertical_thumb.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\scrollbar_vertical_thumb.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\rectangle.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_profile.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\profile.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\background.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_about_app.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_about_app.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_gridhome.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\gridhome.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_charging_solution_first.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\charging_solution_first.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_othersfragment.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\othersfragment.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_toast_border.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\toast_border.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_registration.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\registration.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images1.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\images1.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_batry.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\batry.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_calendar_tile_small.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\calendar_tile_small.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_chq.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\chq.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_online_webview.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_online_webview.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_calendar_left_arrow_selector.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\calendar_left_arrow_selector.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_list_chargingsolution.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\list_chargingsolution.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images4.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\images4.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_station_tracker_map2.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_station_tracker_map2.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pass.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\pass.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_home.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_greenbackground.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\greenbackground.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pickup.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-hdpi\\ic_pickup.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_calendar_button_selector.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\calendar_button_selector.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pickup.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-xhdpi\\ic_pickup.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_resevation_booking.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\resevation_booking.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_homeaction.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\homeaction.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_booking_start.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_booking_start.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\raw_zxing_beep.ogg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\raw\\zxing_beep.ogg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_about.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\about.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_about.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\about.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_zxing_barcode_scanner.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\zxing_barcode_scanner.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_round_but_red_sel.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\round_but_red_sel.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_profile.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_my_profile.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ab.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\ab.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cal_right_arrow_on.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\cal_right_arrow_on.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_price.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\price.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_infowindowlayout.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\infowindowlayout.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images2.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\images2.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_loginbackground.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\loginbackground.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_calender.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\calender.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_resevation_booking.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_resevation_booking.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mractive.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\mractive.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_regbackground.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\regbackground.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_p.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\p.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images5.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\images5.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_scroller_virtical_track.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\scroller_virtical_track.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_editview_style.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\editview_style.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_profilepic.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\profilepic.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pickup.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\ic_pickup.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_green.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\green.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_qrcode.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_qrcode.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_b.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\b.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_map_test.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_map_test.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_s.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\s.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_generictoast.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\generictoast.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_station_tracker_map.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_station_tracker_map.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cal_left_arrow_on.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\cal_left_arrow_on.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\menu_qrcode.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\menu\\qrcode.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_calendar_bg_orange.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\calendar_bg_orange.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_car.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-xxhdpi\\ic_car.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_round_but_green_sel.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\round_but_green_sel.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_car.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\ic_car.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_download.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\download.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images3.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\images3.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_car.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-xhdpi\\ic_car.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_car.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-hdpi\\ic_car.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable_calendar_right_arrow_selector.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable\\calendar_right_arrow_selector.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cal_left_arrow_off.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\cal_left_arrow_off.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_zxing_capture.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_info_window_test2.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\info_window_test2.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_genericddl.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\genericddl.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_note.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\note.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cal_right_arrow_off.png.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\drawable-mdpi\\cal_right_arrow_off.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_charging_solution_first.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_charging_solution_first.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\build\\intermediates\\res\\merged\\debug\\layout_row_grid.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\EVManagementSystem\\eVManagementSystem\\src\\main\\res\\layout\\row_grid.xml"
+    }
+]

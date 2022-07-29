@@ -1,0 +1,598 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="in.nsoft.evmanagementsystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml
+10
+11    <!--
+12        <uses-sdk
+13        android:minSdkVersion="19"
+14        android:targetSdkVersion="21" />
+15    -->
+16
+17
+18    <!--
+19        <uses-feature
+20        android:name="android.hardware.camera"
+21        android:required="false" />
+22    -->
+23    <uses-feature
+23-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera.front"
+24-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:15:9-53
+25        android:required="false" />
+25-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:16:9-33
+26    <!-- TODO replace above two with next line after Android 4.2 -->
+27    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+28    <uses-feature
+28-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.camera.autofocus"
+29-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:20:9-57
+30        android:required="false" />
+30-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.camera.flash"
+32-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:23:9-53
+33        android:required="false" />
+33-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:24:9-33
+34    <uses-feature
+34-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:25:5-27:36
+35        android:name="android.hardware.screen.landscape"
+35-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:26:9-57
+36        android:required="false" />
+36-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:27:9-33
+37    <uses-feature
+37-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:28:5-30:36
+38        android:name="android.hardware.wifi"
+38-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:29:9-45
+39        android:required="false" />
+39-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:30:9-33
+40
+41    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+41-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:32:5-81
+41-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:32:22-78
+42    <uses-permission android:name="android.permission.INTERNET" />
+42-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:33:5-67
+42-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:33:22-64
+43    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+43-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:34:5-79
+43-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:34:22-76
+44    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+44-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:35:5-81
+44-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:35:22-78
+45    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+45-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:36:5-80
+45-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:36:22-77
+46    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+46-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:37:5-75
+46-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:37:22-72
+47    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+47-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:38:5-79
+47-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:38:22-76
+48    <uses-permission android:name="android.permission.LOCATION_SERVICE" />
+48-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:39:5-75
+48-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:39:22-72
+49    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+49-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:40:5-79
+49-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:40:22-76
+50    <uses-permission android:name="android.permission.CAMERA" />
+50-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:41:5-65
+50-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:41:22-62
+51
+52    <permission
+52-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:43:5-45:47
+53        android:name="in.nsoft.evmanagementsystem.permission.MAPS_RECEIVE"
+53-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:44:9-75
+54        android:protectionLevel="signature" />
+54-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:45:9-44
+55
+56    <uses-feature android:name="android.hardware.camera" />
+56-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:47:5-60
+56-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:47:19-57
+57
+58    <uses-permission android:name="in.nsoft.evmanagementsystem.permission.MAPS_RECEIVE" />
+58-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:49:5-91
+58-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:49:22-88
+59
+60    <uses-feature
+60-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\14a3e5ffd17a534c668c3599103ac7c2\play-services-maps-12.0.1\AndroidManifest.xml:26:5-28:35
+61        android:glEsVersion="0x00020000"
+61-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\14a3e5ffd17a534c668c3599103ac7c2\play-services-maps-12.0.1\AndroidManifest.xml:27:9-41
+62        android:required="true" /> <!-- Optional permission for Analytics to run. -->
+62-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\14a3e5ffd17a534c668c3599103ac7c2\play-services-maps-12.0.1\AndroidManifest.xml:28:9-32
+63    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+63-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:27:5-68
+63-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:27:22-65
+64    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+64-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d9c5de010bf648e1667930f69ad6c54c\play-services-gcm-12.0.1\AndroidManifest.xml:23:5-82
+64-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d9c5de010bf648e1667930f69ad6c54c\play-services-gcm-12.0.1\AndroidManifest.xml:23:22-79
+65
+66    <permission
+66-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
+67        android:name="in.nsoft.evmanagementsystem.permission.C2D_MESSAGE"
+67-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
+68        android:protectionLevel="signature" />
+68-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
+69
+70    <uses-permission android:name="in.nsoft.evmanagementsystem.permission.C2D_MESSAGE" />
+70-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
+70-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
+71
+72    <application
+72-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:51:5-152:19
+73        android:allowBackup="true"
+73-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:52:9-35
+74        android:debuggable="true"
+75        android:icon="@drawable/ic_launcher"
+75-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:53:9-45
+76        android:label="@string/app_name"
+76-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:54:9-41
+77        android:testOnly="true"
+78        android:theme="@style/MyTheme" >
+78-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:55:9-39
+79        <activity
+79-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:56:9-65:20
+80            android:name="in.nsoft.evmanagementsystem.LoginActivity"
+80-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:57:13-69
+81            android:configChanges="orientation|keyboardHidden"
+81-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:58:13-63
+82            android:label="@string/app_name"
+82-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:59:13-45
+83            android:screenOrientation="portrait" >
+83-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:60:13-49
+84            <intent-filter>
+84-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:61:13-64:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:62:17-69
+85-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:62:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:63:17-77
+87-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:63:27-74
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:66:9-71:20
+91            android:name="in.nsoft.evmanagementsystem.HomeActivity"
+91-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:67:13-41
+92            android:configChanges="orientation|keyboardHidden"
+92-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:68:13-63
+93            android:label="@string/app_name"
+93-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:69:13-45
+94            android:screenOrientation="portrait" >
+94-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:70:13-49
+95        </activity>
+96        <activity
+96-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:72:9-77:20
+97            android:name="in.nsoft.evmanagementsystem.AboutAppActivity"
+97-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:73:13-45
+98            android:configChanges="orientation|keyboardHidden"
+98-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:74:13-63
+99            android:label="@string/app_name"
+99-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:75:13-45
+100            android:screenOrientation="portrait" >
+100-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:76:13-49
+101        </activity>
+102        <activity
+102-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:78:9-83:20
+103            android:name="in.nsoft.evmanagementsystem.MyProfileActivity"
+103-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:79:13-46
+104            android:configChanges="orientation|keyboardHidden"
+104-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:80:13-63
+105            android:label="@string/app_name"
+105-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:81:13-45
+106            android:screenOrientation="portrait" >
+106-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:82:13-49
+107        </activity>
+108
+109        <meta-data
+109-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:85:9-87:71
+110            android:name="com.google.android.maps.v2.API_KEY"
+110-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:86:13-62
+111            android:value="AIzaSyDBUwGhcC6twSWj9qxhii_pAAsQMc8ofPw" />
+111-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:87:13-68
+112        <meta-data
+112-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:88:9-90:69
+113            android:name="com.google.android.gms.version"
+113-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:89:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:90:13-66
+115
+116        <activity
+116-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:92:9-97:20
+117            android:name="in.nsoft.evmanagementsystem.BookingStartActivity"
+117-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:93:13-49
+118            android:configChanges="orientation|keyboardHidden"
+118-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:94:13-63
+119            android:label="@string/app_name"
+119-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:95:13-45
+120            android:screenOrientation="portrait" >
+120-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:96:13-49
+121        </activity>
+122        <activity
+122-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:98:9-103:20
+123            android:name="in.nsoft.evmanagementsystem.ChargingSolutionFirstActivity"
+123-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:99:13-58
+124            android:configChanges="orientation|keyboardHidden"
+124-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:100:13-63
+125            android:label="@string/app_name"
+125-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:101:13-45
+126            android:screenOrientation="portrait" >
+126-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:102:13-49
+127        </activity>
+128        <activity
+128-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:104:9-109:20
+129            android:name="in.nsoft.evmanagementsystem.MapTestActivity"
+129-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:105:13-44
+130            android:configChanges="orientation|keyboardHidden"
+130-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:106:13-63
+131            android:label="@string/app_name"
+131-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:107:13-45
+132            android:screenOrientation="portrait" >
+132-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:108:13-49
+133        </activity>
+134        <activity
+134-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:110:9-115:20
+135            android:name="in.nsoft.evmanagementsystem.ResevationBookingActivity"
+135-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:111:13-54
+136            android:configChanges="orientation|keyboardHidden"
+136-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:112:13-63
+137            android:label="@string/app_name"
+137-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:113:13-45
+138            android:screenOrientation="portrait" >
+138-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:114:13-49
+139        </activity>
+140        <activity
+140-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:116:9-121:20
+141            android:name="in.nsoft.evmanagementsystem.StationTrackerMapActivity"
+141-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:117:13-54
+142            android:configChanges="orientation|keyboardHidden"
+142-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:118:13-63
+143            android:label="@string/app_name"
+143-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:119:13-45
+144            android:screenOrientation="portrait" >
+144-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:120:13-49
+145        </activity>
+146        <activity
+146-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:122:9-127:20
+147            android:name="in.nsoft.evmanagementsystem.StationTrackerMap2Activity"
+147-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:123:13-55
+148            android:configChanges="orientation|keyboardHidden"
+148-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:124:13-63
+149            android:label="@string/app_name"
+149-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:125:13-45
+150            android:screenOrientation="portrait" >
+150-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:126:13-49
+151        </activity>
+152        <activity
+152-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:128:9-133:20
+153            android:name="in.nsoft.evmanagementsystem.RegistrationActivity"
+153-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:129:13-49
+154            android:configChanges="orientation|keyboardHidden"
+154-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:130:13-63
+155            android:label="@string/app_name"
+155-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:131:13-45
+156            android:screenOrientation="portrait" >
+156-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:132:13-49
+157        </activity>
+158        <activity
+158-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:134:9-139:20
+159            android:name="in.nsoft.evmanagementsystem.QRCodeActivity"
+159-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:135:13-43
+160            android:configChanges="orientation|keyboardHidden"
+160-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:136:13-63
+161            android:label="@string/app_name"
+161-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:137:13-45
+162            android:screenOrientation="portrait" >
+162-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:138:13-49
+163        </activity>
+164        <activity
+164-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:140:9-145:20
+165            android:name="in.nsoft.evmanagementsystem.OnlineWebViewActivity"
+165-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:141:13-50
+166            android:configChanges="orientation|keyboardHidden"
+166-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:142:13-63
+167            android:label="@string/app_name"
+167-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:143:13-45
+168            android:screenOrientation="portrait" >
+168-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:144:13-49
+169        </activity>
+170        <activity
+170-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:146:9-151:63
+171            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+171-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:147:13-74
+172            android:clearTaskOnLaunch="true"
+172-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:148:13-45
+173            android:screenOrientation="landscape"
+173-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:149:13-50
+174            android:stateNotNeeded="true"
+174-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:150:13-42
+175            android:windowSoftInputMode="stateAlwaysHidden" />
+175-->D:\WorkSpaceStudio\EVManagementSystem\eVManagementSystem\src\main\AndroidManifest.xml:151:13-60
+176        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+177        <activity
+177-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
+178            android:name="com.google.android.gms.ads.AdActivity"
+178-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
+179            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+179-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
+180            android:exported="false"
+180-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+181            android:theme="@android:style/Theme.Translucent" />
+181-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+182
+183        <receiver
+183-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+184            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+184-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+185            android:enabled="true"
+185-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+186            android:exported="false" >
+186-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+187        </receiver>
+188
+189        <service
+189-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+190            android:name="com.google.android.gms.analytics.AnalyticsService"
+190-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+191            android:enabled="true"
+191-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+192            android:exported="false" />
+192-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+193        <service
+193-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+194            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+194-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+195            android:enabled="true"
+195-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+196            android:exported="false"
+196-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+197            android:permission="android.permission.BIND_JOB_SERVICE" />
+197-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+198
+199        <activity
+199-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+200            android:name="com.google.android.gms.appinvite.PreviewActivity"
+200-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+201            android:exported="true"
+201-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+202            android:theme="@style/Theme.AppInvite.Preview" >
+202-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+203            <intent-filter>
+203-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+204                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+204-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+204-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+206-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+207            </intent-filter>
+208        </activity>
+209        <activity
+209-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+210            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+210-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+211            android:excludeFromRecents="true"
+211-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+213            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+213-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+214        <!--
+215            Service handling Google Sign-In user revocation. For apps that do not integrate with
+216            Google Sign-In, this service will never be started.
+217        -->
+218        <service
+218-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+219            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+219-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+220            android:exported="true"
+220-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+221            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+221-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+222
+223        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+223-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+223-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
+224
+225        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+225-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+225-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+226        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+226-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+226-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+227
+228        <activity
+228-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+229            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+229-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+230            android:excludeFromRecents="true"
+230-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+231            android:exported="true"
+231-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+232            android:launchMode="singleInstance"
+232-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+233            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+233-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+234            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+234-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+235        <activity
+235-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d5b7feb415b67396eeb16dfa4b720b8a\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+236            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+236-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d5b7feb415b67396eeb16dfa4b720b8a\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d5b7feb415b67396eeb16dfa4b720b8a\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+238-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d5b7feb415b67396eeb16dfa4b720b8a\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+239        <!--
+240             FirebaseMessagingService performs security checks at runtime,
+241             no need for explicit permissions despite exported="true"
+242        -->
+243        <service
+243-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+244            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+244-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+245            android:exported="true" >
+245-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+246            <intent-filter android:priority="-500" >
+246-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+246-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+247                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+247-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+247-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+248            </intent-filter>
+249        </service>
+250        <service
+250-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+251            android:name="com.google.android.gms.tagmanager.TagManagerService"
+251-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+252            android:enabled="true"
+252-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+253            android:exported="false" />
+253-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+254
+255        <activity
+255-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+256            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+256-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+257            android:exported="true"
+257-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+258            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+258-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+259            <intent-filter>
+259-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+260                <data android:scheme="tagmanager.c.in.nsoft.evmanagementsystem" />
+260-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+260-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+261
+262                <action android:name="android.intent.action.VIEW" />
+262-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+262-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
+263
+264                <category android:name="android.intent.category.DEFAULT" />
+264-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+264-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+265                <category android:name="android.intent.category.BROWSABLE" />
+265-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+265-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+266            </intent-filter>
+267        </activity>
+268
+269        <receiver
+269-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+270            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+270-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+271            android:enabled="true"
+271-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+272            android:exported="false" >
+272-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+273        </receiver>
+274        <receiver
+274-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+275            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+275-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+276            android:enabled="true"
+276-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+277            android:exported="true"
+277-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+278            android:permission="android.permission.INSTALL_PACKAGES" >
+278-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+279            <intent-filter>
+279-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+280                <action android:name="com.android.vending.INSTALL_REFERRER" />
+280-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+280-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+281            </intent-filter>
+282        </receiver>
+283
+284        <service
+284-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+285            android:name="com.google.android.gms.measurement.AppMeasurementService"
+285-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+286            android:enabled="true"
+286-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+287            android:exported="false" />
+287-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+288        <service
+288-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+289            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+289-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+290            android:enabled="true"
+290-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+291            android:exported="false"
+291-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+292            android:permission="android.permission.BIND_JOB_SERVICE" />
+292-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+293
+294        <receiver
+294-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+295            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+295-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+296            android:exported="true"
+296-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+297            android:permission="com.google.android.c2dm.permission.SEND" >
+297-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+298            <intent-filter>
+298-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+299                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+299-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+299-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+300
+301                <category android:name="in.nsoft.evmanagementsystem" />
+301-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+301-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+302            </intent-filter>
+303        </receiver>
+304        <!--
+305             FirebaseInstanceIdService performs security checks at runtime,
+306             no need for explicit permissions despite exported="true"
+307        -->
+308        <service
+308-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+309            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+309-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+310            android:exported="true" >
+310-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+311            <intent-filter android:priority="-500" >
+311-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+311-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+312                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+312-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+312-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+313            </intent-filter>
+314        </service>
+315
+316        <provider
+316-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+317            android:name="com.google.firebase.provider.FirebaseInitProvider"
+317-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+318            android:authorities="in.nsoft.evmanagementsystem.firebaseinitprovider"
+318-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+319            android:exported="false"
+319-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+320            android:initOrder="100" />
+320-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+321
+322        <meta-data
+322-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\038251c00a07d66870c2fd9beab2bd9f\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+323            android:name="android.support.VERSION"
+323-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\038251c00a07d66870c2fd9beab2bd9f\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
+324            android:value="26.1.0" />
+324-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\038251c00a07d66870c2fd9beab2bd9f\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
+325        <meta-data
+325-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\2866a802edd10d0352ff68229e14ce56\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+326            android:name="android.arch.lifecycle.VERSION"
+326-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\2866a802edd10d0352ff68229e14ce56\runtime-1.0.0\AndroidManifest.xml:26:13-58
+327            android:value="27.0.0-SNAPSHOT" />
+327-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\2866a802edd10d0352ff68229e14ce56\runtime-1.0.0\AndroidManifest.xml:27:13-44
+328    </application>
+329
+330</manifest>

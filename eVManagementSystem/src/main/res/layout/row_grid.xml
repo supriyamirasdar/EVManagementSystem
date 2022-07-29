@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="125dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="1dp" >
+
+    <LinearLayout
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lyt_not"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:background="@drawable/notif"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/item_not"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_text"
+            style="@style/SBItalicLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="12dp" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

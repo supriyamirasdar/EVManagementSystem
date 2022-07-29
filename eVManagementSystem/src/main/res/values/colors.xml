@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+   
+    
+   <!--  <color name="counter_text_bg">#626262</color> -->
+    <color name="counter_text_bg">#0000FF</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="symptom_color_selected">#003366</color>
+    <color name="reaction_color_selected">#003366</color>
+    <color name="static_text_color">#003366</color>
+    <color name="journal_entry_listitem_text_color">#003366</color>
+    <color name="note_text_disabled">#333333</color>    
+    <color name="navy">#6699FF</color>
+    <color name="sky">#0099CC</color>
+    <color name="gray">#808080</color>
+    <color name="lightgray">#e7e7e7</color>
+    <color name="lightgray02">#bfbfbf</color>
+    <color name="dark">#000015</color>
+    <color name="lightgreen">#336666</color>
+    <color name="orrange">#ff9900</color>
+    <color name="darkorrange">#cc2303</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00CC00</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="pink">#FF0099</color>
+     <color name="brown">#994433</color>
+     <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#696969</color>
+    <color name="lightyellow">#ffffa4</color>   
+    
+    <color name="green1">#107c10</color>
+    <color name="blue1">#191970</color>
+    
+    <!-- <color name="appcolor">#005387</color> -->
+    <color name="appcolor">#006400</color> 
+    <color name="appcolorblur">#CCCCFF</color>
+    
+    
+
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/green"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/register"
+        style="@style/SBWhiteLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="User Registration/Updation"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/profilepic" />
+
+        <LinearLayout
+            android:id="@+id/lytRegisterInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imgprofile"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/profile" />
+
+                <EditText
+                    android:id="@+id/txtUserName"
+                    style="@style/SBTextBox"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 "
+                    android:ems="20"
+                    android:hint="@string/Username"
+                    android:maxLength="25"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imgpassword"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pass" />
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    style="@style/SBTextBox"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:ems="20"
+                    android:hint="@string/Password"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imcgpassword"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pass" />
+
+                <EditText
+                    android:id="@+id/txtCPassword"
+                    style="@style/SBTextBox"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:ems="20"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imgcell"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/profile" />
+
+                <EditText
+                    android:id="@+id/txtPhoneNo"
+                    style="@style/SBTextBox"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:hint="Phone No"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:singleLine="true" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/SBButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:text="Register" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lytOtpInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/txtotp"
+                style="@style/SBTextBox"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+                android:ems="20"
+                android:hint="@string/Otp"
+                android:maxLength="6"
+                android:singleLine="true" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btnConfirm"
+                style="@style/SBButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:text="Confirm" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

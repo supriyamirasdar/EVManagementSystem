@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "in.nsoft.evmanagementsystem"
+        minSdkVersion 22
+        targetSdkVersion 26
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':googleplayservices_lib')
+    //compile 'com.android.support:support-v4:23.4.0'
+    compile files('libs/core-3.2.0.jar')
+    compile files('libs/org.apache.http.legacy.jar')
+
+
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.google.android.gms:play-services:+'
+    compile 'com.google.android.gms:play-services-maps:11.4.0'
+    compile 'com.google.android.gms:play-services-places:11.4.0'
+    compile 'com.google.android.gms:play-services-location:11.4.0'
+}

@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.1"
+        android:background="@color/appcolor"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblChargingSolution"
+            style="@style/SBWhiteLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Charging Solution"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+ <!--    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/lyt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.9"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/Background"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lblOne1"
+                    style="@style/Label"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Date" />
+
+                <TextView
+                    android:id="@+id/lblLOne2"
+                    style="@style/Label"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Description" />
+
+                <TextView
+                    android:id="@+id/lblOne3"
+                    style="@style/Label"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Charge" />
+
+                <TextView
+                    android:id="@+id/lblOne4"
+                    style="@style/Label"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Price" />
+            </LinearLayout> -->
+
+            <ListView
+                android:id="@+id/lstCharge"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="50dp"
+                android:background="@color/white"
+                android:divider="@color/black"
+                android:dividerHeight="2dp" />
+        </LinearLayout>
+    
+
+

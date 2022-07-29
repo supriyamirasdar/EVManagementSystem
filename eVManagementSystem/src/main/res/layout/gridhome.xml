@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lyt1"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/images1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <!--  <TextView
+            android:id="@+id/lblSBBlinkText"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"           
+            android:text="Test"
+            android:textColor="@color/red"
+            android:gravity="center" /> -->
+
+        <TextView
+            android:id="@+id/lbl1"
+            style="@style/SBItalicLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="Name" />
+        
+        <TextView
+            android:id="@+id/lbl2"
+            style="@style/SBItalicLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="Location" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/grdHomePage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnWidth="100dp"
+                android:gravity="center"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+            </GridView>
+
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"   
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       
+        <TextView
+            android:id="@+id/lbl1"
+            style="@style/SBLargeLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EV Management System1"
+             />
+
+        <TextView
+            android:id="@+id/lbl2"
+            style="@style/SBLargeLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+             android:text="EV Management System2"
+            android:gravity="center" />
+
+        
+         <TextView
+            android:id="@+id/lbl3"
+            style="@style/SBLargeLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+             android:text="EV Management System3"
+            android:gravity="center" />
+         
+        
+       
+
+      
+    </LinearLayout>
+
+</LinearLayout>
