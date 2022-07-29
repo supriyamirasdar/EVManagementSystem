@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EVManagementSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/EVManagementSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eVManagementSystem/EVManagementSystem.eVManagementSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/eVManagementSystem/EVManagementSystem.eVManagementSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/googleplayservices_lib/EVManagementSystem.googleplayservices_lib.iml" filepath="$PROJECT_DIR$/.idea/modules/googleplayservices_lib/EVManagementSystem.googleplayservices_lib.iml" />
+    </modules>
+  </component>
+</project>

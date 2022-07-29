@@ -1,0 +1,85 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From EVManagementSystem:
+* ic_car-web.png
+* ic_launcher-web.png
+* ic_pickup-web.png
+* proguard-project.txt
+From google-play-services_lib:
+* .gradle\
+* .gradle\6.5\
+* .gradle\6.5\fileChanges\
+* .gradle\6.5\fileChanges\last-build.bin
+* .gradle\6.5\fileHashes\
+* .gradle\6.5\fileHashes\fileHashes.lock
+* .gradle\6.5\gc.properties
+* .gradle\buildOutputCleanup\
+* .gradle\buildOutputCleanup\buildOutputCleanup.lock
+* .gradle\buildOutputCleanup\cache.properties
+* .gradle\checksums\
+* .gradle\checksums\checksums.lock
+* .gradle\vcs-1\
+* .gradle\vcs-1\gc.properties
+* .idea\
+* .idea\.gitignore
+* .idea\gradle.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\modules\
+* .idea\modules\google-play-services_lib.iml
+* .idea\workspace.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* import-summary.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => eVManagementSystem\src\main\AndroidManifest.xml
+* assets\ => eVManagementSystem\src\main\assets\
+* libs\core-3.2.0.jar => eVManagementSystem\libs\core-3.2.0.jar
+* libs\org.apache.http.legacy.jar => eVManagementSystem\libs\org.apache.http.legacy.jar
+* res\ => eVManagementSystem\src\main\res\
+* src\ => eVManagementSystem\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

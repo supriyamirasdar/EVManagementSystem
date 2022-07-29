@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./eVManagementSystem/libs/core-3.2.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/eVManagementSystem/libs/core-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
